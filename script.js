@@ -1,6 +1,6 @@
 
 // --- CONFIGURAÇÕES DA API ---
-const apiKey ="7d3c2ca7bd1e4eb3962220908250410"; 
+const apiKey =""; 
 const days = 7; // Reduzi para 7 dias, fica melhor no mobile
 
 // --- ELEMENTOS DO HTML ---
@@ -81,3 +81,4 @@ cityInput.addEventListener("keyup", (e) => e.key === "Enter" && handleSearch());
 
 // --- INICIALIZAÇÃO ---
 window.addEventListener("load", () => getWeather("Brasilia"));
+
